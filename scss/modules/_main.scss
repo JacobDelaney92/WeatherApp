@@ -1,0 +1,28 @@
+.weather-app {
+  &__main {
+    width: 100vw;
+    margin: 0 auto;
+    height: 80vh;
+    border-radius: 25px 25px 0 0;
+    &__temp-type {
+      position: absolute;
+      bottom: 20%;
+      left: 5%;
+      color: white;
+      @include flex(column, unset, unset, unset);
+      padding: 50% 0 0 5%;
+      &__weather-con {
+        font-size: 1rem;
+      }
+
+      &__weather-temp {
+        font-size: 4rem;
+        line-height: 4rem;
+        span {
+          font-size: 1.5rem;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
