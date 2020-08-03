@@ -5,16 +5,33 @@
     margin: 0 auto;
     border-radius: 25px 25px 0 0;
     background-position: center;
+    @media(min-width:767px){
+      height: 88vh;
+    }
     &__temp-type {
       color: $white;
       @include position(absolute, auto, 5%, auto, 20%, 0);
       @include flex(column, unset, unset, unset);
       &__weather-con {
         font-size: 1rem;
+
+        @media (min-width: 767px) {
+          font-size: 2.5rem;
+        }
+      }
+      span{
+        @media (min-width: 767px) {
+          font-size: 2.5rem;
+        }
       }
       &__weather-temp {
         font-size: 4rem;
         line-height: 4rem;
+        @media (min-width: 767px) {
+          font-size: 6rem;
+          line-height: 6rem;
+        }
+
         span {
           font-size: 1.5rem;
           vertical-align: top;

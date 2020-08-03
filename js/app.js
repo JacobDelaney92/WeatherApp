@@ -107,7 +107,7 @@ function weatherAsk(cityName) {
 
       cityCon.innerHTML = `${city}, ${country}`;
       weatherCon.innerHTML = `${weatherType}`;
-      tempCon.innerHTML = `${temp} <span>&#8451;</span>`;
+      tempCon.innerHTML = `${temp}<span>&#8451;</span>`;
       windSpeedCon.innerHTML = `Windspeed: ${windSpeed}`;
       humCon.innerHTML = `Humidity: ${humidity}`;
       pressCon.innerHTML = `Pressure: ${pressure}`;
