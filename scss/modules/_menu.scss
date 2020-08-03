@@ -1,0 +1,62 @@
+/*ANIMATE*/
+.rotate {
+  transform: rotate(135deg);
+}
+.slide {
+  transform: scale3d(60, 60, 60);
+}
+/*ANIMATE*/
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgba(49, 49, 49, 0.9);
+  @include position(fixed, auto, auto, 8%, 6%, 10);
+  transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.weather-app {
+  &--info {
+    width: 35px;
+    height: 35px;
+    color: $black;
+    text-align: center;
+    border-radius: 30px;
+    background-color: $white;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.7);
+    @include position(absolute, auto, auto, 5%, 5%, 50);
+    transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    svg {
+      width: 20px;
+      vertical-align: bottom;
+      transform-origin: center center;
+      transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+    }
+  }
+  &__menu {
+    opacity: 0;
+    height: 85%;
+    width: 100%;
+    animation-delay: 1s;
+    @include position(absolute, 0, 0, 0, auto, -5);
+    @include flex(column, space-evenly, center, unset);
+    transition: opacity 0.9s cubic-bezier(0.33, 1, 0.68, 1);
+    &__cont {
+      width: 95%;
+      padding: 3%;
+      color: $white;
+      border-radius: 5px;
+      box-sizing: border-box;
+      background-color: $drk-grey;
+      @include flex(row, space-between, center, unset);
+      box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.7);
+      svg {
+        width: 12%;
+      }
+    }
+  }
+}
+.show {
+  z-index: 60;
+  opacity: 1;
+}

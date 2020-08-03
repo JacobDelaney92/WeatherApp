@@ -11,3 +11,11 @@
       align-items: $align;
       flex-wrap: $wrap;
   }
+  @mixin position($type,$top,$left,$right,$btm,$index){
+    position:$type;
+    top:$top;
+    left:$left;
+    right:$right;
+    bottom:$btm;
+    z-index:$index;
+}

@@ -1,140 +1,43 @@
-*{
-    margin:0;
-    padding:0;
-}
-body{
-    font-family: 'Catamaran', sans-serif;
-    background: rgb(49,49,49);
-  
 .weather-app {
-    &--info {
-        position: absolute;
-        right: 5%;
-        bottom: 5%;
-        background-color: white;
-        width: 35px;
-        height: 35px;
-        border-radius: 30px;
-        color: black;
-        text-align: center;
-        z-index: 50000;
-        box-shadow: 0 2px 4px 2px rgba(0,0,0,0.7);
-        transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
-
-            svg{
-                transform-origin: center center;
-                width:20px;
-                vertical-align: bottom;
-                transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
-
-            }
-      }
-
-
-    &--navigation {
-        width: 100%;
-        height:20vh;
-        box-sizing: border-box;
-        background-color: #313131;
-      &__time{
-        color:$white;
-        font-size:1.4rem;
-        text-align:center;
-    }
-    &__input{
-        .auto{
-            position: absolute;
-            left: 0;
-            right: 0;
-            z-index: 400000;
-            background-color:#313131;
-            input{
-                margin: 5% auto;
-                display: block;
-                border: none;
-                background-color: #484848;
-                height: 25px;
-                border-radius: 5px;
-                color: white;
-                width: 90%;
-                padding: 2%;
-                outline: 0;
-            }
-            .autocomplete-items{
-                background-color: #313131;
-                padding:0 2%;
-
-                div{
-                    background-color: #484848;
-                    border-radius: 5px;
-                    padding: 2%;
-                    margin: 3% auto;
-                    color: white;
-                }
-
-            }
-        }
-    }
-  }
-}
-}
-.rotate{
-    transform: rotate(135deg);
-  }
-  .slide{
-    transform: scale3d(60,60,60);
-  }
- 
-  .menu{
-    width: 20px;
-    height: 20px;
-    position: fixed;
-    right: 8%;
-    background-color: rgba(49,49,49,0.9);
-    border-radius: 20px;
-    bottom: 6%;
-    z-index: 900;
-    transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
-
- 
-
-  }
-
-  .menu-info{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 85%;
+  &--navigation {
     width: 100%;
-    opacity:0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index:-50;
-    animation-delay:1s;
-    transition: opacity 0.9s cubic-bezier(0.33, 1, 0.68, 1);
-
-    &__cont{
-    width: 95%;
-    background-color: #313131;
-    color: white;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3%;
+    height: 21vh;
     box-sizing: border-box;
-    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.7);
-    svg{
-        width: 12%;
+    background-color: $drk-grey;
+    &__time {
+      color: $white;
+      font-size: 1.4rem;
+      text-align: center;
     }
+    &__input {
+      .auto {
+        @include position(absolute, auto, 0, 0, auto, 40);
+        background-color: $drk-grey;
+        input {
+          width: 90%;
+          height: 25px;
+          padding: 2%;
+          outline: 0;
+          border: none;
+          color: $white;
+          display: block;
+          margin: 5% auto;
+          border-radius: 5px;
+          background-color: $light-grey;
+        }
+        .autocomplete-items {
+          background-color: $drk-grey;
+          padding: 0 2%;
+
+          div {
+            padding: 2%;
+            color: $white;
+            margin: 3% auto;
+            border-radius: 5px;
+            background-color: $light-grey;
+          }
+        }
+      }
     }
-   
-}
-.show{
-    z-index: 500000;
-    opacity: 1;
+  }
 }
