@@ -74,16 +74,17 @@
         font-size: 2.5rem; } }
     .weather-app__main__temp-type__weather-temp {
       font-size: 4rem;
-      line-height: 4rem; }
+      line-height: 4rem;
+      letter-spacing: normal; }
       @media (min-width: 767px) {
         .weather-app__main__temp-type__weather-temp {
           font-size: 6rem;
           line-height: 6rem; } }
       .weather-app__main__temp-type__weather-temp span {
         font-size: 1.5rem;
-        vertical-align: top; }
+        vertical-align: super; }
 
-/*ANIMATE*/
+/*ANIMATION*/
 .rotate {
   transform: rotate(135deg); }
 
@@ -95,7 +96,15 @@
   .slide {
     transform: scale3d(100, 100, 100); } }
 
-/*ANIMATE*/
+@keyframes menuFade {
+  0% {
+    z-index: 0;
+    opacity: 0; }
+  100% {
+    z-index: 60;
+    opacity: 1; } }
+
+/*ANIMATION*/
 .circle {
   width: 20px;
   height: 20px;
@@ -107,7 +116,7 @@
   right: 8%;
   bottom: 6%;
   z-index: 10;
-  transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1); }
+  transition: transform 0.4s cubic-bezier(0.83, 0, 0.17, 1); }
 
 .weather-app--info {
   width: 35px;
@@ -122,7 +131,7 @@
   left: auto;
   right: 5%;
   bottom: 5%;
-  z-index: 50;
+  z-index: 40;
   transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1); }
   @media (min-width: 767px) {
     .weather-app--info {
@@ -143,7 +152,6 @@
   opacity: 0;
   height: 85%;
   width: 100%;
-  animation-delay: 1s;
   position: absolute;
   top: 0;
   left: 0;
@@ -155,7 +163,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: unset;
-  transition: opacity 0.9s cubic-bezier(0.33, 1, 0.68, 1); }
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
   .weather-app__menu__cont {
     width: 95%;
     padding: 3%;
@@ -178,8 +186,11 @@
           height: 50px; } }
 
 .show {
-  z-index: 60;
-  opacity: 1; }
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+  animation-name: menuFade;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1; }
 
 * {
   margin: 0;
@@ -188,6 +199,9 @@
 body {
   font-family: "Catamaran", sans-serif;
   background-color: #313131; }
+  @media (min-width: 1024px) {
+    body {
+      display: none; } }
   body p {
     font-size: 16px;
     letter-spacing: 0.1em; }

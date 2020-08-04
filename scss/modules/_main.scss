@@ -27,6 +27,7 @@
       &__weather-temp {
         font-size: 4rem;
         line-height: 4rem;
+        letter-spacing: normal;
         @media (min-width: 767px) {
           font-size: 6rem;
           line-height: 6rem;
@@ -34,7 +35,7 @@
 
         span {
           font-size: 1.5rem;
-          vertical-align: top;
+          vertical-align: super;
         }
       }
     }

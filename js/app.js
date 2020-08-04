@@ -156,7 +156,6 @@ function moreInfo(val) {
 }
 /****************MORE INFO****************/
 
-
 /****************PREDICTIVE SEARCH****************/
 var countries = [
   "Coru",
@@ -255,7 +254,7 @@ var countries = [
   "Athlone",
   "Atlanta",
   "Atlantic",
-  "City",
+
   "Auckland",
   "Augsburg",
   "Augusta",
@@ -276,9 +275,9 @@ var countries = [
   "Lizum",
   "Ayia",
   "Napa",
-  "Bad",
+
   "Gastein",
-  "Bad",
+
   "Hofgastein",
   "Baden",
   "Baiona",
@@ -308,7 +307,7 @@ var countries = [
   "Belfort",
   "Belgrade",
   "Belize",
-  "City",
+
   "Belluno",
   "Belmopan",
   "Belo",
@@ -361,8 +360,7 @@ var countries = [
   "Boston",
   "Boulder",
   "Boulogne",
-  "sur",
-  "Mer",
+
   "Bourges",
   "Boynton",
   "Beach",
@@ -404,16 +402,15 @@ var countries = [
   "Caen",
   "Cagliari",
   "Cagnes",
-  "sur",
-  "Mer",
+
   "Cairns",
-  "Cala",
+
   "Bona",
-  "Cala",
+
   "Or",
-  "Cala",
+
   "Millor",
-  "Cala",
+
   "Ratjada",
   "Calais",
   "Calella",
@@ -452,7 +449,7 @@ var countries = [
   "Carpinteria",
   "Carrara",
   "Carson",
-  "City",
+
   "Cartagena",
   "Casablanca",
   "Caserta",
@@ -468,14 +465,14 @@ var countries = [
   "Cesena",
   "esk",
   "Krumlov",
-  "e",
+
   "me",
   "Chamonix",
   "Chandler",
   "Chania",
   "Charleroi",
   "Charleston",
-  "West",
+
   "Virginia",
   "Charleston",
   "South",
@@ -507,7 +504,7 @@ var countries = [
   "Chur",
   "Cincinnati",
   "Ciutadella",
-  "de",
+
   "Menorca",
   "Civitavecchia",
   "Clearwater",
@@ -528,11 +525,10 @@ var countries = [
   "Columbus",
   "Como",
   "Concepci",
-  "n",
+
   "Concord",
   "Conil",
-  "de",
-  "la",
+
   "Frontera",
   "Copenhagen",
   "Coral",
@@ -562,7 +558,7 @@ var countries = [
   "Cremona",
   "Crotone",
   "Cuneo",
-  "Da",
+
   "Nang",
   "Dallas",
   "Dana",
@@ -576,7 +572,7 @@ var countries = [
   "Deerfield",
   "Beach",
   "Del",
-  "Mar",
+
   "Delft",
   "Delray",
   "Beach",
@@ -616,7 +612,7 @@ var countries = [
   "Edmonton",
   "Eilat",
   "Eindhoven",
-  "El",
+
   "Paso",
   "Elche",
   "Ellmau",
@@ -678,7 +674,7 @@ var countries = [
   "Foz",
   "do",
   "Igua",
-  "u",
+
   "Frankfort",
   "Frankfurt",
   "am",
@@ -696,7 +692,7 @@ var countries = [
   "Funchal",
   "Gainesville",
   "Galt",
-  "r",
+
   "Galway",
   "Garden",
   "Grove",
@@ -712,7 +708,7 @@ var countries = [
   "Town",
   "Ghent",
   "Gij",
-  "n",
+
   "Gilbert",
   "Girona",
   "Glasgow",
@@ -725,7 +721,7 @@ var countries = [
   "Coast",
   "Gorizia",
   "Dachstein",
-  "West",
+
   "Gothenburg",
   "G",
   "ttingen",
@@ -760,8 +756,6 @@ var countries = [
   "Hamilton",
   "Canada",
   "Hamilton",
-  "New",
-  "Zealand",
   "Hampton",
   "Hangzhou",
   "Hannover",
@@ -797,7 +791,7 @@ var countries = [
   "Ho",
   "Chi",
   "Minh",
-  "City",
+
   "Hollywood",
   "Florida",
   "Hong",
@@ -836,14 +830,13 @@ var countries = [
   "Jackson",
   "Jacksonville",
   "Jefferson",
-  "City",
+
   "Jena",
   "Jerez",
-  "de",
-  "la",
+
   "Frontera",
   "Jersey",
-  "City",
+
   "Jerusalem",
   "Johannesburg",
   "Joinville",
@@ -851,7 +844,7 @@ var countries = [
   "les",
   "Pins",
   "Juiz",
-  "de",
+
   "Fora",
   "Juneau",
   "Jungfrau",
@@ -861,9 +854,9 @@ var countries = [
   "Kalamata",
   "Kanchanaburi",
   "Kansas",
-  "City",
+
   "Kansas",
-  "City",
+
   "Kansas",
   "Kappl",
   "Kaprun",
@@ -878,7 +871,7 @@ var countries = [
   "Key",
   "Largo",
   "Key",
-  "West",
+
   "Khao",
   "Lak",
   "Kiel",
@@ -892,7 +885,7 @@ var countries = [
   "hel",
   "Klagenfurt",
   "Klaip",
-  "da",
+
   "Knoxville",
   "Kobe",
   "Koblenz",
@@ -915,29 +908,29 @@ var countries = [
   "Hora",
   "Kyoto",
   "Kyrenia",
-  "La",
+
   "Ciotat",
-  "La",
+
   "Clusaz",
-  "La",
+
   "Laguna",
-  "La",
+
   "Maddalena",
-  "La",
+
   "Manga",
-  "La",
+
   "Plagne",
-  "La",
+
   "Plata",
-  "La",
+
   "Rochelle",
-  "La",
+
   "Romana",
-  "La",
+
   "Serena",
-  "La",
+
   "Spezia",
-  "La",
+
   "Thuile",
   "Laax",
   "Lagos",
@@ -948,10 +941,9 @@ var countries = [
   "Terme",
   "Lancaster",
   "Lancaster",
-  "U",
-  "S",
+
   "Lansing",
-  "L",
+
   "Aquila",
   "Laredo",
   "Largo",
@@ -1015,14 +1007,13 @@ var countries = [
   "Livorno",
   "Ljubljana",
   "Lloret",
-  "de",
-  "Mar",
+
   "Loano",
   "Locarno",
   "Lodi",
   "Lodz",
   "Logro",
-  "o",
+
   "London",
   "Canada",
   "London",
@@ -1040,10 +1031,10 @@ var countries = [
   "Lourdes",
   "Loutraki",
   "Louvain",
-  "la",
+
   "Neuve",
   "Lubbock",
-  "L",
+
   "beck",
   "Lublin",
   "Lucca",
@@ -1061,7 +1052,7 @@ var countries = [
   "Magaluf",
   "Magdeburg",
   "Mah",
-  "n",
+
   "Mainz",
   "Makarska",
   "Malaga",
@@ -1075,7 +1066,7 @@ var countries = [
   "Mannheim",
   "Manosque",
   "Mantua",
-  "Mar",
+
   "del",
   "Plata",
   "Marathon",
@@ -1102,20 +1093,19 @@ var countries = [
   "Melbourne",
   "Australia",
   "Melbourne",
-  "U",
-  "S",
+
   "Memphis",
   "Menton",
   "Merano",
   "Meribel",
-  "M",
+
   "rida",
   "Mesa",
   "Messina",
   "Mestre",
   "Metz",
   "Mexico",
-  "City",
+
   "Miami",
   "Middelburg",
   "Midland",
@@ -1157,7 +1147,7 @@ var countries = [
   "View",
   "Mulhouse",
   "Munich",
-  "M",
+
   "nster",
   "Murcia",
   "Murter",
@@ -1172,8 +1162,6 @@ var countries = [
   "Naples",
   "Italy",
   "Naples",
-  "U",
-  "S",
   "Narbonne",
   "Narva",
   "Nashville",
@@ -1185,16 +1173,11 @@ var countries = [
   "Nerja",
   "Netanya",
   "Nevers",
-  "New",
-  "Haven",
-  "New",
-  "Orleans",
-  "New",
-  "Smyrna",
+  "New Haven",
+  "New Orleans",
+  "New Smyrna",
   "Beach",
-  "New",
-  "York",
-  "City",
+  "New York",
   "Newark",
   "Newcastle",
   "Australia",
@@ -1228,7 +1211,7 @@ var countries = [
   "Novara",
   "Novigrad",
   "Nuoro",
-  "N",
+
   "rnberg",
   "Nyon",
   "Oakland",
@@ -1244,7 +1227,7 @@ var countries = [
   "Ogden",
   "Oia",
   "Oklahoma",
-  "City",
+
   "Olbia",
   "Oldenburg",
   "Olomouc",
@@ -1280,7 +1263,7 @@ var countries = [
   "Palm",
   "Beach",
   "Palma",
-  "de",
+
   "Mallorca",
   "Palma",
   "Nova",
@@ -1289,9 +1272,7 @@ var countries = [
   "Alto",
   "Pamplona",
   "Panama",
-  "City",
-  "U",
-  "S",
+
   "Paphos",
   "Paradiski",
   "Paralia",
@@ -1337,7 +1318,7 @@ var countries = [
   "Philadelphia",
   "Phoenix",
   "Phuket",
-  "City",
+
   "Piacenza",
   "Pierre",
   "Piraeus",
@@ -1350,7 +1331,7 @@ var countries = [
   "Playa",
   "Blanca",
   "Playa",
-  "de",
+
   "las",
   "Am",
   "ricas",
@@ -1374,7 +1355,7 @@ var countries = [
   "St",
   "Lucie",
   "Portim",
-  "o",
+
   "Portland",
   "Oregon",
   "Portland",
@@ -1394,8 +1375,7 @@ var countries = [
   "Portsmouth",
   "UK",
   "Portsmouth",
-  "U",
-  "S",
+
   "Positano",
   "Potenza",
   "Potsdam",
@@ -1403,7 +1383,7 @@ var countries = [
   "Pozzuoli",
   "Prague",
   "Praia",
-  "da",
+
   "Rocha",
   "Prato",
   "Preston",
@@ -1413,14 +1393,13 @@ var countries = [
   "Providence",
   "Provo",
   "Puerto",
-  "de",
-  "la",
+
   "Cruz",
   "Puerto",
   "Plata",
   "Puerto",
   "Rico",
-  "de",
+
   "Gran",
   "Canaria",
   "Puerto",
@@ -1446,7 +1425,7 @@ var countries = [
   "Randers",
   "Rapallo",
   "Rapid",
-  "City",
+
   "Ras",
   "al",
   "Khaimah",
@@ -1477,7 +1456,7 @@ var countries = [
   "Rijeka",
   "Rimini",
   "Rio",
-  "de",
+
   "Janeiro",
   "Riomaggiore",
   "Rishon",
@@ -1489,8 +1468,6 @@ var countries = [
   "Rochester",
   "Minnesota",
   "Rochester",
-  "New",
-  "York",
   "Rodez",
   "Rome",
   "Rosario",
@@ -1536,7 +1513,7 @@ var countries = [
   "Salou",
   "Salt",
   "Lake",
-  "City",
+
   "Salta",
   "Salvador",
   "Salzburg",
@@ -1561,16 +1538,16 @@ var countries = [
   "Pedro",
   "San",
   "Pedro",
-  "de",
+
   "Atacama",
   "San",
   "Sebasti",
-  "n",
+
   "Sanford",
   "Sanremo",
   "Sant",
   "Antoni",
-  "de",
+
   "Portmany",
   "Santa",
   "Ana",
@@ -1584,7 +1561,7 @@ var countries = [
   "Cruz",
   "Santa",
   "Cruz",
-  "de",
+
   "Tenerife",
   "Santa",
   "Eul",
@@ -1611,7 +1588,7 @@ var countries = [
   "Dominican",
   "Rep",
   "Santiago",
-  "de",
+
   "Compostela",
   "Santo",
   "Domingo",
@@ -1636,7 +1613,7 @@ var countries = [
   "Seoul",
   "Serre",
   "Chevalier",
-  "S",
+
   "te",
   "Seville",
   "Shanghai",
@@ -1656,9 +1633,9 @@ var countries = [
   "Sitges",
   "Skiathos",
   "Sofia",
-  "S",
+
   "lden",
-  "S",
+
   "ll",
   "Soller",
   "Sondrio",
@@ -1688,21 +1665,20 @@ var countries = [
   "George",
   "St",
   "John",
-  "s",
+
   "St",
   "Louis",
   "St",
   "Moritz",
   "St",
   "Petersburg",
-  "U",
-  "S",
+
   "Stavanger",
   "Stirling",
   "Stockholm",
   "Stockton",
   "Stoke",
-  "on",
+
   "Trent",
   "Strasbourg",
   "Stuttgart",
@@ -1720,8 +1696,7 @@ var countries = [
   "Syracuse",
   "Italy",
   "Syracuse",
-  "U",
-  "S",
+
   "Szczecin",
   "Tacoma",
   "Tallahassee",
@@ -1758,8 +1733,7 @@ var countries = [
   "Toledo",
   "Spain",
   "Toledo",
-  "U",
-  "S",
+
   "Toowoomba",
   "Topeka",
   "Toronto",
@@ -1768,13 +1742,12 @@ var countries = [
   "Greco",
   "Torre",
   "del",
-  "Mar",
+
   "Torremolinos",
   "Torrevieja",
   "Toru",
   "Tossa",
-  "de",
-  "Mar",
+
   "Toulon",
   "Toulouse",
   "Tours",
@@ -1873,7 +1846,7 @@ var countries = [
   "New Zealand",
   "Wellington",
   "Wengen",
-  "West",
+
   "Palm",
   "Beach",
   "Westendorf",
@@ -1990,5 +1963,3 @@ function autocomplete(inp, arr) {
 
 autocomplete(document.getElementById("myInput"), countries);
 /****************PREDICTIVE SEARCH****************/
-
-
