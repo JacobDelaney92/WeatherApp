@@ -5,11 +5,16 @@
   }
 
   @mixin flex($direction,$justify,$align,$wrap){
-      display:flex;
-      flex-direction: $direction;
-      justify-content: $justify;
-      align-items: $align;
-      flex-wrap: $wrap;
+    display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
   }
   @mixin position($type,$top,$left,$right,$btm,$index){
     position:$type;

@@ -1017,7 +1017,7 @@ var countries = [
   "London",
   "Canada",
   "London",
-  "UK",
+  
   "Londrina",
   "Long",
   "Beach",
@@ -1182,7 +1182,7 @@ var countries = [
   "Newcastle",
   "Australia",
   "Newcastle",
-  "UK",
+  
   "Newport",
   "Newport",
   "Beach",
@@ -1302,7 +1302,7 @@ var countries = [
   "Perth",
   "Australia",
   "Perth",
-  "UK",
+  
   "Perugia",
   "Pesaro",
   "Pescara",
@@ -1373,7 +1373,7 @@ var countries = [
   "Porto",
   "Vecchio",
   "Portsmouth",
-  "UK",
+  
   "Portsmouth",
 
   "Positano",
