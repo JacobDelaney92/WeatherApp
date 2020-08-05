@@ -104,9 +104,12 @@
   top: auto;
   left: auto;
   right: 5%;
-  bottom: 6%;
+  bottom: 3%;
   z-index: 0;
   transition: transform 0.4s cubic-bezier(0.83, 0, 0.17, 1); }
+  @media (min-width: 767px) {
+    .circle {
+      display: none; } }
 
 .weather-app--info {
   width: 35px;
@@ -123,6 +126,9 @@
   bottom: 2%;
   z-index: 80;
   transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1); }
+  @media (min-width: 767px) {
+    .weather-app--info {
+      display: none; } }
   .weather-app--info svg {
     width: 20px;
     vertical-align: bottom;
@@ -191,3 +197,13 @@ body {
   body p {
     font-size: 16px;
     letter-spacing: 0.1em; }
+  body .non-mob-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.5rem; }
