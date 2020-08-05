@@ -5,15 +5,13 @@
 body {
   font-family: "Catamaran", sans-serif;
   background-color: #313131;
-  @media(min-width:1024px){
+  overflow: hidden;
+  @media(min-width:767px){
     display:none;
   }
 
   p {
     font-size: 16px;
     letter-spacing: 0.1em;
-    @media(min-width:767px){
-      font-size:24px;
-    }
   }
 }

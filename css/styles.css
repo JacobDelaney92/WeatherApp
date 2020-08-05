@@ -3,9 +3,6 @@
   height: 21vh;
   box-sizing: border-box;
   background-color: #313131; }
-  @media (min-width: 767px) {
-    .weather-app--navigation {
-      height: 12vh; } }
   .weather-app--navigation__time {
     color: #ffffff;
     font-size: 1.4rem;
@@ -32,9 +29,6 @@
     .weather-app--navigation__input .auto .autocomplete-items {
       background-color: #313131;
       padding: 0 2%; }
-      @media (min-width: 767px) {
-        .weather-app--navigation__input .auto .autocomplete-items {
-          padding: 0 3%; } }
       .weather-app--navigation__input .auto .autocomplete-items div {
         padding: 2%;
         color: #ffffff;
@@ -48,9 +42,6 @@
   margin: 0 auto;
   border-radius: 25px 25px 0 0;
   background-position: center; }
-  @media (min-width: 767px) {
-    .weather-app__main {
-      height: 88vh; } }
   .weather-app__main__temp-type {
     color: #ffffff;
     position: absolute;
@@ -71,20 +62,10 @@
     flex-wrap: unset; }
     .weather-app__main__temp-type__weather-con {
       font-size: 1rem; }
-      @media (min-width: 767px) {
-        .weather-app__main__temp-type__weather-con {
-          font-size: 2.5rem; } }
-    @media (min-width: 767px) {
-      .weather-app__main__temp-type span {
-        font-size: 2.5rem; } }
     .weather-app__main__temp-type__weather-temp {
       font-size: 4rem;
       line-height: 4rem;
       letter-spacing: normal; }
-      @media (min-width: 767px) {
-        .weather-app__main__temp-type__weather-temp {
-          font-size: 6rem;
-          line-height: 6rem; } }
       .weather-app__main__temp-type__weather-temp span {
         font-size: 1.5rem;
         vertical-align: super; }
@@ -138,20 +119,11 @@
   bottom: 5%;
   z-index: 40;
   transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1); }
-  @media (min-width: 767px) {
-    .weather-app--info {
-      width: 60px;
-      height: 60px;
-      border-radius: 60px; } }
   .weather-app--info svg {
     width: 20px;
     vertical-align: bottom;
     transform-origin: center center;
     transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1); }
-    @media (min-width: 767px) {
-      .weather-app--info svg {
-        width: 35px;
-        margin: 12px 0 0 0; } }
 
 .weather-app__menu {
   opacity: 0;
@@ -196,10 +168,6 @@
     .weather-app__menu__cont svg {
       width: 25px;
       height: 25px; }
-      @media (min-width: 767px) {
-        .weather-app__menu__cont svg {
-          width: 50px;
-          height: 50px; } }
 
 .show {
   animation-delay: 0.3s;
@@ -214,13 +182,11 @@
 
 body {
   font-family: "Catamaran", sans-serif;
-  background-color: #313131; }
-  @media (min-width: 1024px) {
+  background-color: #313131;
+  overflow: hidden; }
+  @media (min-width: 767px) {
     body {
       display: none; } }
   body p {
     font-size: 16px;
     letter-spacing: 0.1em; }
-    @media (min-width: 767px) {
-      body p {
-        font-size: 24px; } }

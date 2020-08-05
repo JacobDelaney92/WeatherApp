@@ -4,9 +4,7 @@
     height: 21vh;
     box-sizing: border-box;
     background-color: $drk-grey;
-    @media(min-width:767px){
-      height: 12vh;
-    }
+
     &__time {
       color: $white;
       font-size: 1.4rem;
@@ -31,9 +29,6 @@
         .autocomplete-items {
           background-color: $drk-grey;
           padding: 0 2%;
-          @media(min-width:767px){
-            padding: 0 3%;
-          }
 
           div {
             padding: 2%;
