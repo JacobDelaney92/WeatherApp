@@ -1963,3 +1963,19 @@ function autocomplete(inp, arr) {
 
 autocomplete(document.getElementById("myInput"), countries);
 /****************PREDICTIVE SEARCH****************/
+
+/**/
+var mobileView = window.matchMedia( "(min-width: 767px)" );
+if (mq.matches) {
+
+    var msg = document.createElement("div"); 
+    var copy = document.createTextNode("Avaliable on mobile Only"); 
+    msg.className = "non-mob-msg";
+    copy.className = "non-mob-msg__copy";
+    msg.appendChild(newContent);  
+    document.querySelector('body').appendChild(msg); 
+}
+else {
+    console.log("mobile only message failed!");
+}
+/**/

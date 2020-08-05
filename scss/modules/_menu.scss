@@ -23,13 +23,12 @@
   }
 }
 /*ANIMATION*/
-
 .circle {
   width: 20px;
   height: 20px;
   border-radius: 20px;
   background-color: rgba(49, 49, 49, 0.9);
-  @include position(fixed, auto, auto, 8%, 6%, 10);
+  @include position(fixed, auto, auto, 5%, 5%, 0);
   transition: transform 0.4s cubic-bezier(0.83, 0, 0.17, 1);
 }
 .weather-app {
@@ -41,7 +40,7 @@
     border-radius: 30px;
     background-color: $white;
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.7);
-    @include position(absolute, auto, auto, 5%, 5%, 40);
+    @include position(absolute, auto, auto, 5%, 5%, 80);
     transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
     svg {
       width: 20px;
@@ -52,15 +51,16 @@
   }
   &__menu {
     opacity: 0;
-    height: 85%;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     @include position(absolute, 0, 0, 0, auto, 10);
-    @include flex(column, space-evenly, center, unset);
+    @include flex(column, flex-start, center, unset);
     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
     &__cont {
       width: 95%;
       padding: 3%;
+      margin: 3% auto;
       color: $white;
       border-radius: 5px;
       box-sizing: border-box;

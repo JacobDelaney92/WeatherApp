@@ -23,7 +23,7 @@
       border: none;
       color: #ffffff;
       display: block;
-      margin: 15% auto 5%;
+      margin: 5% auto;
       border-radius: 5px;
       background-color: #484848; }
     .weather-app--navigation__input .auto .autocomplete-items {
@@ -99,9 +99,9 @@
   position: fixed;
   top: auto;
   left: auto;
-  right: 8%;
-  bottom: 6%;
-  z-index: 10;
+  right: 5%;
+  bottom: 5%;
+  z-index: 0;
   transition: transform 0.4s cubic-bezier(0.83, 0, 0.17, 1); }
 
 .weather-app--info {
@@ -117,7 +117,7 @@
   left: auto;
   right: 5%;
   bottom: 5%;
-  z-index: 40;
+  z-index: 80;
   transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1); }
   .weather-app--info svg {
     width: 20px;
@@ -127,7 +127,7 @@
 
 .weather-app__menu {
   opacity: 0;
-  height: 85%;
+  height: 100%;
   width: 100%;
   overflow: hidden;
   position: absolute;
@@ -143,13 +143,14 @@
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: unset;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
   .weather-app__menu__cont {
     width: 95%;
     padding: 3%;
+    margin: 3% auto;
     color: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
@@ -182,11 +183,7 @@
 
 body {
   font-family: "Catamaran", sans-serif;
-  background-color: #313131;
-  overflow: hidden; }
-  @media (min-width: 767px) {
-    body {
-      display: none; } }
+  background-color: #313131; }
   body p {
     font-size: 16px;
     letter-spacing: 0.1em; }
