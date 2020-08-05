@@ -1,8 +1,10 @@
 .weather-app--navigation {
   width: 100%;
-  height: 21vh;
   box-sizing: border-box;
   background-color: #313131; }
+  @media (min-width: 767px) {
+    .weather-app--navigation {
+      display: none; } }
   .weather-app--navigation__time {
     color: #ffffff;
     font-size: 1.4rem;
@@ -38,7 +40,7 @@
 
 .weather-app__main {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   margin: 0 auto;
   border-radius: 25px 25px 0 0;
   background-position: center; }
@@ -60,6 +62,9 @@
     justify-content: unset;
     align-items: unset;
     flex-wrap: unset; }
+    @media (min-width: 767px) {
+      .weather-app__main__temp-type {
+        display: none; } }
     .weather-app__main__temp-type__weather-con {
       font-size: 1rem; }
     .weather-app__main__temp-type__weather-temp {
@@ -100,7 +105,7 @@
   top: auto;
   left: auto;
   right: 5%;
-  bottom: 5%;
+  bottom: 6%;
   z-index: 0;
   transition: transform 0.4s cubic-bezier(0.83, 0, 0.17, 1); }
 

@@ -1,7 +1,7 @@
 .weather-app {
   &__main {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     margin: 0 auto;
     border-radius: 25px 25px 0 0;
     background-position: center;
@@ -9,6 +9,9 @@
       color: $white;
       @include position(absolute, auto, 5%, auto, 20%, 0);
       @include flex(column, unset, unset, unset);
+      @media(min-width:767px){
+        display:none;
+      }
       &__weather-con {
         font-size: 1rem;
       }
