@@ -42,7 +42,6 @@
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  border-radius: 25px 25px 0 0;
   background-position: center; }
   .weather-app__main__temp-type {
     color: #ffffff;
@@ -117,11 +116,11 @@
   border-radius: 30px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.7);
-  position: absolute;
+  position: fixed;
   top: auto;
   left: auto;
   right: 5%;
-  bottom: 5%;
+  bottom: 2%;
   z-index: 80;
   transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1); }
   .weather-app--info svg {

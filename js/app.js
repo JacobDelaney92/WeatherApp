@@ -37,7 +37,7 @@ function imageAsk(weatherType) {
     .then((data) => {
       let image = data.results[0].urls.regular;
       document.querySelector(".weather-app__main").style.backgroundImage =
-        "linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(49,49,49,0) 100%), url(" +
+        "linear-gradient(180deg, rgba(49,49,49,1) 15%, rgba(49,49,49,0) 100%), url(" +
         image +
         ")";
     })
